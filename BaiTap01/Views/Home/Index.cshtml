@@ -7,4 +7,24 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     <hr/>
     <h2 style="color: red">Hello World!, I am Pham Ngoc Sang</h2>
+    <hr/>
+    <ul>
+        @for (int i = 0; i <= 4; i++)
+        {
+            <li>Item @i</li>
+        }
+    </ul>
+    <hr/>
+    @{
+        int h = DateTime.Now.Hour;
+    }
+
+    @if(h < 12)
+    {
+        <p>Good morning! (@h) </p>
+    }
+    else
+    {
+        <p>Good afternoon (@h) </p>
+    }
 </div>

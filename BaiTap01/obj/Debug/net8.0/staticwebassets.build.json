@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gA2EY+t288T+XC2+7BuT5RvX9uLDrtFY+UW4KXK93vQ=",
+  "Hash": "5bSL1dHkC0+OrkTDicVVsWZiEl32QuohVBUI6LqI0LA=",
   "Source": "BaiTap01",
   "BasePath": "_content/BaiTap01",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\GitHub\\asp_web\\BaiTap01\\wwwroot\\css\\Temp.css",
+      "SourceId": "BaiTap01",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\asp_web\\BaiTap01\\wwwroot\\",
+      "BasePath": "_content/BaiTap01",
+      "RelativePath": "css/Temp.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Temp.css"
     },
     {
       "Identity": "D:\\GitHub\\asp_web\\BaiTap01\\wwwroot\\favicon.ico",
