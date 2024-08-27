@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\asp_web\\BaiTap02\\BaiTap02.csproj": {}
+    "D:\\GitHub\\asp_web\\BaiTapBangCuuChuong\\BaiTap02.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\asp_web\\BaiTap02\\BaiTap02.csproj": {
+    "D:\\GitHub\\asp_web\\BaiTapBangCuuChuong\\BaiTap02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\asp_web\\BaiTap02\\BaiTap02.csproj",
+        "projectUniqueName": "D:\\GitHub\\asp_web\\BaiTapBangCuuChuong\\BaiTap02.csproj",
         "projectName": "BaiTap02",
-        "projectPath": "D:\\GitHub\\asp_web\\BaiTap02\\BaiTap02.csproj",
+        "projectPath": "D:\\GitHub\\asp_web\\BaiTapBangCuuChuong\\BaiTap02.csproj",
         "packagesPath": "C:\\Users\\sangp\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\asp_web\\BaiTap02\\obj\\",
+        "outputPath": "D:\\GitHub\\asp_web\\BaiTapBangCuuChuong\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
