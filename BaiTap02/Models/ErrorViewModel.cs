@@ -1,4 +1,4 @@
-namespace BaiTap02.Models
+namespace BaiTap2608.Models
 {
     public class ErrorViewModel
     {

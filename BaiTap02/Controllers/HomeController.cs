@@ -1,8 +1,8 @@
-using BaiTap02.Models;
+using BaiTap2608.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace BaiTap02.Controllers
+namespace BaiTap2608.Controllers
 {
     public class HomeController : Controller
     {
