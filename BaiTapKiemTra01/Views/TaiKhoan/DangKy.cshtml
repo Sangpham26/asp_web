@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "DangKy";
+}
+
+@model BaiTapKiemTra01.Models.TaiKhoanViewModel
+
+<div class="container">
+    <h3>Đăng ký</h3>
+    <form method="post">
+        <div class="form-group">
+            <label for="TenTaiKhoan">Tên tài khoản</label>
+            <input type="text" class="form-control" id="TenTaiKhoan" name="TenTaiKhoan" value="@Model.TenTaiKhoan" required />
+        </div>
+        <div class="form-group">
+            <label for="MatKhau">Mật khẩu</label>
+            <input type="password" class="form-control" id="MatKhau" name="MatKhau" required />
+        </div>
+        <div class="form-group">
+            <label for="HoTen">Họ tên</label>
+            <input type="text" class="form-control" id="HoTen" name="HoTen" value="@Model.HoTen" required />
+        </div>
+        <div class="form-group">
+            <label for="Tuoi">Tuổi</label>
+            <input type="number" class="form-control" id="Tuoi" name="Tuoi" value="@Model.Tuoi" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Đăng ký</button>
+    </form>
+</div>
+
+

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "BaiTap02";
+}
+
+<h1>BaiTap02</h1>
+@model BaiTapKiemTra01.Models.SanPhamViewModel
+
+<div class="container">
+    <h2>Thông tin sản phẩm</h2>
+    <div class="product-details">
+        <h3>Tên sản phẩm: @Model.TenSanPham</h3>
+        <p>Giá bán: @Model.GiaBan.ToString("C")</p>
+        <img src="@Model.AnhMoTa" alt="Ảnh mô tả của @Model.TenSanPham" style="width:300px; height:auto;" />
+    </div>
+</div>
+
+
