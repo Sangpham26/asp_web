@@ -1,0 +1,22 @@
+﻿
+@model NhaCungCap
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Ten">Tên nhà cung cấp</label>
+        <input asp-for="Ten" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="DiaChi">Địa chỉ</label>
+        <input asp-for="DiaChi" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="SoDienThoai">Số điện thoại</label>
+        <input asp-for="SoDienThoai" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Image">Tải lên ảnh</label>
+        <input type="file" name="file" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>  
+</form>
+
