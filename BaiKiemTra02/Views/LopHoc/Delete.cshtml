@@ -1,0 +1,43 @@
+﻿@model LopHoc
+
+<div class="container">
+    <h3>Xóa lớp học</h3>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form method="post" asp-action="DeleteConfirm">
+        @* Thêm thẻ input ẩn cho thuộc tính Id *@
+        <input asp-for="Id" type="hidden"/>
+
+        <div class="form-group">
+            <label asp-for="TenLopHoc">Tên lớp học</label>
+            <input asp-for="TenLopHoc" type="text" class="form-control" readonly/>
+            <span asp-validation-for="TenLopHoc" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NamNhapHoc">Năm nhập học</label>
+            <input asp-for="NamNhapHoc" type="date" class="form-control" readonly />
+            <span asp-validation-for="NamNhapHoc" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NamRaTruong">Năm ra trường</label>
+            <input asp-for="NamRaTruong" type="date" class="form-control" readonly />
+            <span asp-validation-for="NamRaTruong" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SoLuongSinhVien">Số lượng sinh viên</label>
+            <input asp-for="SoLuongSinhVien" type="number" class="form-control" readonly />
+            <span asp-validation-for="SoLuongSinhVien" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+                <partial name="_ValidationScriptsPartial" />
+    }
+}
