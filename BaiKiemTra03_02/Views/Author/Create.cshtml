@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+@model BaiKiemTra03_02.Models.Author
+
+@{
+    ViewData["Title"] = "Thêm Tác Giả Mới";
+}
+
+<div class="container">
+    <h1>Thêm Tác Giả Mới</h1>
+    <form method="post" asp-action="Create">
+        <div class="form-group">
+            <label asp-for="AuthorName">Tên tác giả</label>
+            <input asp-for="AuthorName" class="form-control" />
+            <span asp-validation-for="AuthorName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nationality">Quốc tịch</label>
+            <input asp-for="Nationality" class="form-control" />
+            <span asp-validation-for="Nationality" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BirthYear">Năm sinh</label>
+            <input asp-for="BirthYear" class="form-control" type="date" />
+            <span asp-validation-for="BirthYear" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Thêm mới</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>
+
+@section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+}
+

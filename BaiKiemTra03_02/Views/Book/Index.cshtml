@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchString" placeholder="Nhập thể loại cần tìm ..." value="@ViewBag.SearchString" />
+        <input type="submit" value="Tìm Kiếm" />
+    </form>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tiêu đề</th>
+                <th>Năm xuất bản</th>
+                <th>Thể loại</th>
+                <th>Tác giả</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                    <tr>
+                        <td width="25%">@item.Title</td>
+                        <td width="10%">@item.PublicCationYear</td>
+                        <td width="15%">@item.Genre</td>
+                        <td width="20%">@item.Author.AuthorName</td>
+                        <td width="30%">
+                            <a asp-action="Upsert" asp-route-id="@item.BookId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.BookId">Details</a> |
+                            <a class="text-danger" onclick="xoa(@item.BookId, $(this))">Delete</a>
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="Book" asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+</div>
+
+<script>
+    function xoa(id, row){
+        // Hiển thị cảnh báo xác nhận
+        if(confirm("Bạn có chắc chắn muốn xóa sách này không?")) {
+            $.ajax({
+                url: `/Book/Delete/${id}`, // Kiểm tra URL chính xác
+                type: "POST", // Đảm bảo bạn đang sử dụng POST
+                success: function (data){
+                    if(data.success) {
+                        row.closest("tr").remove(); // Xóa dòng trong thẻ "tr"
+                        alert("Xóa thành công!");
+                    } else {
+                        alert("Xóa không thành công");
+                    }
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra trong quá trình xóa.");
+                }
+            });
+        } else {
+            alert("Đã hủy bỏ việc xóa."); // Thông báo khi hủy
+        }
+    }
+</script>
+
