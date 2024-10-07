@@ -7,7 +7,6 @@ namespace BaiKiemTra03_02.Controllers
     public class AuthorController : Controller
     {
         private readonly ApplicationDbContext _db;
-
         public AuthorController(ApplicationDbContext db)
         {
             _db = db;
@@ -20,6 +19,7 @@ namespace BaiKiemTra03_02.Controllers
             return View();
         }
 
+
         [HttpGet]
         public IActionResult Create()
         {
@@ -31,11 +31,11 @@ namespace BaiKiemTra03_02.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Authors.Add(author);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                _db.Authors.Add(author);  
+                _db.SaveChanges();     
+                return RedirectToAction("Index"); 
             }
-            return View(author);
+            return View();
         }
 
         [HttpGet]
@@ -58,9 +58,9 @@ namespace BaiKiemTra03_02.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Authors.Update(author);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                _db.Authors.Update(author); // Cập nhật thông tin Author
+                _db.SaveChanges();          // Lưu thay đổi vào database
+                return RedirectToAction("Index"); // Chuyển về trang danh sách
             }
             return View(author);
         }
@@ -72,17 +72,17 @@ namespace BaiKiemTra03_02.Controllers
             {
                 return NotFound();
             }
-            var author = _db.Authors.Find(id);
-            if (author == null)
-            {
-                return NotFound();
-            }
+            var author = _db.Authors.Find(id); 
             return View(author);
         }
 
         [HttpPost]
         public IActionResult DeleteConfirm(int id)
         {
+            if (id == 0)
+            {
+                return NotFound();
+            }
             var author = _db.Authors.Find(id);
             if (author == null)
             {
@@ -114,15 +114,9 @@ namespace BaiKiemTra03_02.Controllers
             if (!string.IsNullOrEmpty(searchString))
             {
                 var authors = _db.Authors.Where(a => a.AuthorName.Contains(searchString)).ToList();
-                ViewBag.SearchString = searchString;
-                ViewBag.Authors = authors;
+                return View("Index", authors);
             }
-            else
-            {
-                var authors = _db.Authors.ToList();
-                ViewBag.Authors = authors;
-            }
-            return View("Index");
+            return RedirectToAction("Index");
         }
     }
 }

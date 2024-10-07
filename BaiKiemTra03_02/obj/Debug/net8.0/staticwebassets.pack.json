@@ -5,6 +5,62 @@
       "PackagePath": "staticwebassets\\BaiKiemTra03_02.bundle.scp.css"
     },
     {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Chi tiết book.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Chi tiết book.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Chi tiết tác giả.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Chi tiết tác giả.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Danh sách book.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Danh sách book.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Danh sách tác giả.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Danh sách tác giả.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\SQL Data Author.png",
+      "PackagePath": "staticwebassets\\Anhchup\\SQL Data Author.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\SQL Data Book.png",
+      "PackagePath": "staticwebassets\\Anhchup\\SQL Data Book.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\SQL Database Diagram.png",
+      "PackagePath": "staticwebassets\\Anhchup\\SQL Database Diagram.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Sửa book.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Sửa book.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Sửa tác giả.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Sửa tác giả.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Thêm hình cho book.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Thêm hình cho book.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Thêm sách.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Thêm sách.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Thêm tác giả.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Thêm tác giả.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Xóa book.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Xóa book.png"
+    },
+    {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Xóa tác giả.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Xóa tác giả.png"
+    },
+    {
       "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

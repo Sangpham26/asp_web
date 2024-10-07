@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <h1>Chi tiết sách</h1>
+    <div>
+        <strong>ID:</strong> @Model.BookId <br/>
+        <strong>Tiêu đề:</strong> @Model.Title <br/>
+        <strong>Năm xuất bản:</strong> @Model.PublicCationYear <br/>
+        <strong>Thể loại:</strong> @Model.Genre <br/>
+        <strong>Tác giả ID:</strong> @Model.AuthorID <br/>
+    </div>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+</div>
+

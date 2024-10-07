@@ -1,37 +1,36 @@
-﻿
-@model BaiKiemTra03_02.Models.Author
-
-@{
-    ViewData["Title"] = "Thêm Tác Giả Mới";
-}
+﻿@model BaiKiemTra03_02.Models.Author
 
 <div class="container">
-    <h1>Thêm Tác Giả Mới</h1>
-    <form method="post" asp-action="Create">
+    <h3>Cập nhật tác giả</h3>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form method="post" asp-action="Edit"> 
+        <input type="hidden" asp-for="AuthorId" /> 
+
         <div class="form-group">
             <label asp-for="AuthorName">Tên tác giả</label>
-            <input asp-for="AuthorName" class="form-control" />
+            <input asp-for="AuthorName" type="text" class="form-control" />
             <span asp-validation-for="AuthorName" class="text-danger"></span>
         </div>
 
         <div class="form-group">
             <label asp-for="Nationality">Quốc tịch</label>
-            <input asp-for="Nationality" class="form-control" />
+            <input asp-for="Nationality" type="text" class="form-control" />
             <span asp-validation-for="Nationality" class="text-danger"></span>
         </div>
 
         <div class="form-group">
             <label asp-for="BirthYear">Năm sinh</label>
-            <input asp-for="BirthYear" class="form-control" type="date" />
+            <input asp-for="BirthYear" type="date" class="form-control" />
             <span asp-validation-for="BirthYear" class="text-danger"></span>
         </div>
 
-        <button type="submit" class="btn btn-primary">Thêm mới</button>
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
         <a asp-action="Index" class="btn btn-secondary">Hủy</a>
     </form>
 </div>
 
 @section Scripts {
-        <partial name="_ValidationScriptsPartial" />
+    @{
+                <partial name="_ValidationScriptsPartial" />
+    }
 }
-

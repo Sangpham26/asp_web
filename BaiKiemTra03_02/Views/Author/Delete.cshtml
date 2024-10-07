@@ -1,13 +1,15 @@
-﻿
-@model BaiKiemTra03_02.Models.Author
+﻿@model BaiKiemTra03_02.Models.Author
 
 @{
-    ViewData["Title"] = "Thêm Tác Giả Mới";
+    ViewData["Title"] = "Delete";
 }
 
 <div class="container">
-    <h1>Thêm Tác Giả Mới</h1>
-    <form method="post" asp-action="Create">
+    <h1>Xóa Tác Giả </h1>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <form method="post" asp-action="DeleteConfirm" asp-route-id="@Model.AuthorId">
+
+
         <div class="form-group">
             <label asp-for="AuthorName">Tên tác giả</label>
             <input asp-for="AuthorName" class="form-control" />
@@ -26,12 +28,12 @@
             <span asp-validation-for="BirthYear" class="text-danger"></span>
         </div>
 
-        <button type="submit" class="btn btn-primary">Thêm mới</button>
+        <button type="submit" class="btn btn-primary">Xóa</button>
         <a asp-action="Index" class="btn btn-secondary">Hủy</a>
     </form>
 </div>
 
 @section Scripts {
-        <partial name="_ValidationScriptsPartial" />
+            <partial name="_ValidationScriptsPartial" />
 }
 

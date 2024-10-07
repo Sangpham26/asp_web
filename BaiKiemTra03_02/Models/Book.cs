@@ -8,12 +8,19 @@ namespace BaiKiemTra03_02.Models
     {
         [Key]
         public int BookId { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "Tên sách không được để trống.")]
         public string Title { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "Năm xuất bản không được để trống.")]
         public double PublicCationYear { get; set; }
+
+        [Required(ErrorMessage = "Thể loại không được để trống.")]
         public string Genre { get; set; }
-        [Required]
+
+        public string? ImageUrl { get; set; }
+
+        [Required(ErrorMessage = "Mã tác giả không được để trống.")]
         public int AuthorID { get; set; }
         [ForeignKey("AuthorID")]
         [ValidateNever]

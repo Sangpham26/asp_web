@@ -1,9 +1,4 @@
-﻿
-@{
-    ViewData["Title"] = "Upsert";
-}
-
-@model Book
+﻿@model BaiKiemTra03_02.Models.Book
 
 @{
     ViewData["Title"] = "Upsert";
@@ -11,15 +6,17 @@
 
 <div class="container">
     <form method="post" asp-action="Upsert">
+        <input type="hidden" asp-for="BookId" />
+
         <div class="form-group">
-            <label asp-for="Title">Tiêu đề sách</label>
+            <label asp-for="Title">Tên sách</label>
             <input asp-for="Title" type="text" class="form-control" />
             <span asp-validation-for="Title" class="text-danger"></span>
         </div>
 
         <div class="form-group">
             <label asp-for="PublicCationYear">Năm xuất bản</label>
-            <input asp-for="PublicCationYear" type="number" class="form-control" />
+            <input asp-for="PublicCationYear" type="text" class="form-control" />
             <span asp-validation-for="PublicCationYear" class="text-danger"></span>
         </div>
 
@@ -31,10 +28,17 @@
 
         <div class="form-group">
             <label asp-for="AuthorID">Tác giả</label>
-            <select asp-for="AuthorID" asp-items="@ViewBag.Authors" class="form-control">
-                <option value="">Chọn tác giả</option>
+            <select asp-for="AuthorID" asp-items="@ViewBag.AuthorsList" class="form-control">
+                <option disabled>Chọn tác giả</option>
             </select>
             <span asp-validation-for="AuthorID" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ImageUrl">Hình ảnh (URL)</label>
+            <input asp-for="ImageUrl" type="text" class="form-control" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            <small class="form-text text-muted">Nhập URL của hình ảnh sách.</small> <!-- Thêm hướng dẫn -->
         </div>
 
         <button type="submit" class="btn btn-primary">@(@Model.BookId == 0 ? "Tạo mới" : "Cập nhật")</button>
@@ -43,5 +47,7 @@
 </div>
 
 @section Scripts {
+    @{
         <partial name="_ValidationScriptsPartial" />
+    }
 }
