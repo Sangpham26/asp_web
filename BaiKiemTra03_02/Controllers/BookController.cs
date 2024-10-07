@@ -86,5 +86,16 @@ namespace BaiKiemTra03_02.Controllers
             return View(book); 
         }
 
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var book = _db.Books.FirstOrDefault(sp => sp.BookId == id);
+            if (book == null)
+            { return NotFound(); }
+            _db.Books.Remove(book);
+            _db.SaveChanges();
+            return Json(new { success = true }); 
+        }
+
     }
 }

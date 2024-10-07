@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VVqytQ8Q478mZq3MJuAtGFe8i2A+EWk5yEz5WhMltAE=",
+  "Hash": "JDFr6949myu7q/Ea+EHDGVphhoo6mFoZsXZSIXKRejg=",
   "Source": "BaiKiemTra03_02",
   "BasePath": "_content/BaiKiemTra03_02",
   "Mode": "Default",
@@ -1421,6 +1421,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Anhchup\\Thêm tác giả.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Thông báo khi không nhập.png",
+      "SourceId": "BaiKiemTra03_02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\",
+      "BasePath": "_content/BaiKiemTra03_02",
+      "RelativePath": "Anhchup/Thông báo khi không nhập.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Anhchup\\Thông báo khi không nhập.png"
     },
     {
       "Identity": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Xóa book.png",

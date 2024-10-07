@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\Anhchup\\Thêm tác giả.png"
     },
     {
+      "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Thông báo khi không nhập.png",
+      "PackagePath": "staticwebassets\\Anhchup\\Thông báo khi không nhập.png"
+    },
+    {
       "Id": "D:\\GitHub\\asp_web\\BaiKiemTra03_02\\wwwroot\\Anhchup\\Xóa book.png",
       "PackagePath": "staticwebassets\\Anhchup\\Xóa book.png"
     },
