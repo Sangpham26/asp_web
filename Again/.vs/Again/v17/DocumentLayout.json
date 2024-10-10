@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\asp_web\\Again\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\views\\tacgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:views\\tacgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\views\\tacgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:views\\tacgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\views\\tacgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:views\\tacgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\views\\tacgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:views\\tacgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\controllers\\tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:controllers\\tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\asp_web\\Again\\Data\\Migrations\\20241007135714_IDchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20241007135714_IDchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\models\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:models\\tacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|d:\\github\\asp_web\\again\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8EEFDB6-C25D-47A5-BBF0-214A9B650B67}|Again.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 337,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241007135714_IDchange.cs",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Data\\Migrations\\20241007135714_IDchange.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20241007135714_IDchange.cs",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Data\\Migrations\\20241007135714_IDchange.cs",
+              "RelativeToolTip": "Data\\Migrations\\20241007135714_IDchange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:57:14.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\TacGia\\Delete.cshtml",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Delete.cshtml",
+              "RelativeToolTip": "Views\\TacGia\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T13:44:37.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TacGia\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Create.cshtml",
+              "RelativeToolTip": "Views\\TacGia\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T13:31:47.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\TacGia\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Edit.cshtml",
+              "RelativeToolTip": "Views\\TacGia\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T13:31:16.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TacGia.cs",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Models\\TacGia.cs",
+              "RelativeDocumentMoniker": "Models\\TacGia.cs",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Models\\TacGia.cs",
+              "RelativeToolTip": "Models\\TacGia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:12:45.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TacGia\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Views\\TacGia\\Index.cshtml",
+              "RelativeToolTip": "Views\\TacGia\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T12:34:00.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TacGiaController.cs",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Controllers\\TacGiaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TacGiaController.cs",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Controllers\\TacGiaController.cs",
+              "RelativeToolTip": "Controllers\\TacGiaController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:28:07.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:23:00.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\Models\\Sach.cs",
+              "RelativeDocumentMoniker": "Models\\Sach.cs",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\Models\\Sach.cs",
+              "RelativeToolTip": "Models\\Sach.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:12:39.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\asp_web\\Again\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\GitHub\\asp_web\\Again\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T12:12:08.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

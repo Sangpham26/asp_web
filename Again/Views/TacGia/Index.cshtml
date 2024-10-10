@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchString" placeholder="Nhập thể loại cần tìm ..." value="@ViewBag.SearchString"/>
+        <input type="submit" value="Tìm Kiếm"  />
+    </form>
+    <hr />
+    <table class="table">
+        <thead>
+            <th>Tên tác giả</th>
+            <th>Quốc tịch</th>
+            <th>Ngày sinh</th>
+            <th>Chức năng</th>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.TacGia)
+            {
+                            <tr>
+                                <td width="20%">
+                                @item.TacgiaName
+                                </td>
+                                <td width="30%">
+                                @item.TacgiaQuocTich
+                                </td>
+                                <td width="30%">
+                                @String.Format("{00:dd/MM/yyyy}", item.TacgiaNgaySinh)
+                                </td>
+                                <td width ="40%">
+                                    <a asp-action="Edit" asp-route-id="@item.ID">
+                                        Edit
+                                    </a> |
+                                    <a asp-action="Detail" asp-route-id="@item.ID">
+                                        Detail
+                                    </a> |
+                                    <a asp-action="Delete" asp-route-id="@item.ID">
+                                        Delete
+                                    </a>
+                                </td>
+                            </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="TacGia" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+</div>
+

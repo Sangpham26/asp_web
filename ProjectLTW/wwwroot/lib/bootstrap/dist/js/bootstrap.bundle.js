@@ -2110,7 +2110,7 @@
 
   function getLayoutRect(element) {
     var clientRect = getBoundingClientRect(element); // Use the clientRect sizes if it's not been transformed.
-    // Fixes https://github.com/popperjs/popper-core/issues/1223
+    // Fixes https://github.com/popper/js/popper-core/issues/1223
 
     var width = element.offsetWidth;
     var height = element.offsetHeight;
@@ -2186,7 +2186,7 @@
   }
 
   function getTrueOffsetParent(element) {
-    if (!isHTMLElement(element) || // https://github.com/popperjs/popper-core/issues/837
+    if (!isHTMLElement(element) || // https://github.com/popper/js/popper-core/issues/837
     getComputedStyle$1(element).position === 'fixed') {
       return null;
     }
@@ -3358,7 +3358,7 @@
     };
 
     if (isOffsetParentAnElement || !isOffsetParentAnElement && !isFixed) {
-      if (getNodeName(offsetParent) !== 'body' || // https://github.com/popperjs/popper-core/issues/1078
+      if (getNodeName(offsetParent) !== 'body' || // https://github.com/popper/js/popper-core/issues/1078
       isScrollParent(documentElement)) {
         scroll = getNodeScroll(offsetParent);
       }

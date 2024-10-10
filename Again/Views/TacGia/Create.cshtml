@@ -1,0 +1,30 @@
+﻿@model TacGia
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <h3>Thêm tác giả</h3>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="TacgiaName">Tên tác giả</label>
+            <input asp-for="TacgiaName" type="text" class="form-control" />
+            <span asp-validation-for="TacgiaName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TacgiaQuocTich">Quốc tịch</label>
+            <input asp-for="TacgiaQuocTich" type="text" class="form-control" />
+            <span asp-validation-for="TacgiaQuocTich" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TacgiaNgaySinh">Ngày sinh</label>
+            <input asp-for="TacgiaNgaySinh" type="date" class="form-control" />
+            <span asp-validation-for="TacgiaNgaySinh" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Tạo mới</button>
+    </form>
+</div>
+
+

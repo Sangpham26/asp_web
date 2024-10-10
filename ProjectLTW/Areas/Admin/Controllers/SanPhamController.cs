@@ -21,6 +21,7 @@ namespace ProjectLTW.Areas.Admin.Controllers
 			IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").ToList();
 			return View(sanpham);
 		}
+		//get
 		[HttpGet]
 		public IActionResult Upsert(int id)
 		{
